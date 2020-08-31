@@ -2,9 +2,7 @@
     <header class="cabezera">
         <div class="cabezera-pantalla">
             <button class="hamburguesa" @click="toggleSidebard">
-                <span></span>
-                <span></span>
-                <span></span>
+                <font-awesome-icon icon="bars"/>
             </button>
             <h1>Dashboard</h1>
         </div>
@@ -53,6 +51,9 @@
                 flex-direction column
                 justify-content center
                 align-items flex-end
+                svg{
+                    color: #A0A5BA
+                }
                 span{
                     display block
                     background-color #A0A5BA
