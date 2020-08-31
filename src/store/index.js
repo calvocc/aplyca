@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
 	state: {
-		sidebard: false,
+		sidebard: true,
 		user: {
 			nombre: '',
 			email: '',
